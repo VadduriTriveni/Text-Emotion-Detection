@@ -1,27 +1,38 @@
-# Text Emotion Detector
+# 🧠 Text Emotion Detection
 
-A simple Streamlit web app that uses a machine learning model to predict emotions from user-inputted text.
+A fast, minimal web app to detect emotions from text using a trained ML model. Built with **Streamlit** and **scikit-learn**.
 
-## 🚀 Features
+---
 
-- Predicts emotions such as joy, sadness, fear, anger, etc.
-- Displays confidence level for predictions
-- Visualizes emotion probabilities using Altair charts
-- Emoji-enhanced UI
+## 📌 Features
 
-## 📦 Installation
+- Predicts emotion from raw text
+- Displays emoji based on predicted emotion
+- Shows prediction confidence
+- Visualizes class probabilities (Altair)
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/text-emotion-detector.git
-   cd text-emotion-detector
-   
-2. Create a virtual environment and activate it:
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+---
 
-3. Install dependencies:
-   pip install -r requirements.txt
+## 🛠️ Tech Stack
 
-4. Run the app:
-   streamlit run app.py
+- Python 3.8+
+- Streamlit
+- scikit-learn
+- Pandas, NumPy
+- Altair
+- joblib
+
+---
+
+## 🚀 Usage
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/text-emotion-detector.git
+cd text-emotion-detector
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
