@@ -17,11 +17,11 @@ A simple Streamlit web app that uses a machine learning model to predict emotion
    cd text-emotion-detector
    
 2. Create a virtual environment and activate it:
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3.Install dependencies:
-pip install -r requirements.txt
+3. Install dependencies:
+   pip install -r requirements.txt
 
-4.Run the app:
-streamlit run app.py
+4. Run the app:
+   streamlit run app.py
