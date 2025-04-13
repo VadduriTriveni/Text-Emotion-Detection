@@ -6,20 +6,21 @@ A fast, minimal web app to detect emotions from text using a trained ML model. B
 
 ## 📌 Features
 
-- Predicts emotion from raw text
-- Displays emoji based on predicted emotion
-- Shows prediction confidence
-- Visualizes class probabilities (Altair)
+- 🔍 **Predicts emotion** from user-inputted raw text
+- 😀 **Emoji feedback** based on detected emotion
+- 📊 **Displays prediction confidence**
+- 📈 **Visualizes class probabilities** using Altair charts
 
 ---
+
 ## 🧰 Tech Stack
 
 - **Python 3.8+**
-- **Streamlit** – UI framework  
-- **scikit-learn** – ML model building  
-- **Pandas**, **NumPy** – Data handling  
-- **Altair** – Probability visualization  
-- **joblib** – Model persistence 
+- **Streamlit** – Lightweight web app framework  
+- **scikit-learn** – Machine learning model  
+- **Pandas** & **NumPy** – Data manipulation  
+- **Altair** – Interactive data visualizations  
+- **joblib** – For loading the pre-trained model  
 
 ---
 
