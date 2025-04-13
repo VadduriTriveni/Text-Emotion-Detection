@@ -12,15 +12,14 @@ A fast, minimal web app to detect emotions from text using a trained ML model. B
 - Visualizes class probabilities (Altair)
 
 ---
+## 🧰 Tech Stack
 
-## 🛠️ Tech Stack
-
-- Python 3.8+
-- Streamlit
-- scikit-learn
-- Pandas, NumPy
-- Altair
-- joblib
+- **Python 3.8+**
+- **Streamlit** – UI framework  
+- **scikit-learn** – ML model building  
+- **Pandas**, **NumPy** – Data handling  
+- **Altair** – Probability visualization  
+- **joblib** – Model persistence 
 
 ---
 
